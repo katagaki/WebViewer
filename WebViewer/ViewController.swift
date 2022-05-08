@@ -18,7 +18,6 @@ class ViewController: UIViewController, WKNavigationDelegate {
         let r = color!.red * 255 * 0.299
         let g = color!.green * 255 * 0.587
         let b = color!.blue * 255 * 0.114
-        print(r + g + b)
         if r + g + b > 186 {
             return .darkContent
         } else {
